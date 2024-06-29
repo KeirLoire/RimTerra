@@ -8,7 +8,7 @@
 
 ## About
 
-Terraform rocky terrain to usable soil. Expand your colony's farmland.
+Terraform stone terrain to usable soil. Expand your colony's farmland.
 
 - Transform rocky terrain into fertile stony soil using limestone blocks. 
 - Convert stony soil into fertile soil using pemmican.
