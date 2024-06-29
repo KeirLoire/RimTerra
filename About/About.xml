@@ -4,6 +4,8 @@
     <name>RimTerra</name>
     <author>KeirLoire</author>
     <url></url>
+    <modIconPath IgnoreIfNoMatchingField="True">About/Logo</modIconPath>
+    <modVersion>1.0.0</modVersion>
     <supportedVersions>
         <li>1.5</li>
     </supportedVersions>
