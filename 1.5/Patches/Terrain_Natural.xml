@@ -13,9 +13,6 @@
             <researchPrerequisites>
                 <li>Terraforming</li>
             </researchPrerequisites>
-            <filthAcceptanceMask>
-                <li>Unnatural</li>
-            </filthAcceptanceMask>
             <placeWorkers>
                 <li>RimTerra.PlaceWorkers.PlaceWorker_OnStone</li>
             </placeWorkers>
@@ -41,9 +38,6 @@
                 <li>Terraforming</li>
                 <li>Pemmican</li>
             </researchPrerequisites>
-            <filthAcceptanceMask>
-                <li>Unnatural</li>
-            </filthAcceptanceMask>
             <placeWorkers>
                 <li>RimTerra.PlaceWorkers.PlaceWorker_OnStonySoil</li>
             </placeWorkers>
@@ -68,9 +62,6 @@
             <researchPrerequisites>
                 <li>Terraforming</li>
             </researchPrerequisites>
-            <filthAcceptanceMask>
-                <li>Unnatural</li>
-            </filthAcceptanceMask>
             <placeWorkers>
                 <li>RimTerra.PlaceWorkers.PlaceWorker_OnSoil</li>
             </placeWorkers>
