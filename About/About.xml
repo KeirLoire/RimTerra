@@ -7,7 +7,12 @@
     <supportedVersions>
         <li>1.5</li>
     </supportedVersions>
-    <description>Allows terraforming of stone terrain into stony soil, soil, or rich soil.</description>
+    <description>Allows terraforming of stone terrain into usable soil.
+
+- Transform rocky terrain into fertile stony soil using limestone blocks. 
+- Convert stony soil into fertile soil using pemmican.
+- Rich soil can be created from fertile soil using neutroamine.
+    </description>
     <incompatibleWith>
         <li>GT.Sam.TilledSoil</li>
         <li>rayjay.AddTerraforming</li>

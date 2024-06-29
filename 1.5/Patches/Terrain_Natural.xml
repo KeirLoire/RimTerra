@@ -59,15 +59,14 @@
     <Operation Class="PatchOperationAdd">
         <xpath>Defs/TerrainDef[defName="SoilRich"]</xpath>
         <value>
-            <description>Upgrade fertile soil into rich soil using nutrient paste. Boosts soil fertility, providing the best conditions for crop growth. A valuable asset for your colony's agriculture.</description>
+            <description>Upgrade fertile soil into rich soil using neutroamine. Boosts soil fertility, providing the best conditions for crop growth. A valuable asset for your colony's agriculture.</description>
             <constructEffect>ConstructDirt</constructEffect>
             <designationCategory>Floors</designationCategory>
             <costList>
-                <MealNutrientPaste>1</MealNutrientPaste>
+                <Neutroamine>7</Neutroamine>
             </costList>
             <researchPrerequisites>
                 <li>Terraforming</li>
-                <li>NutrientPaste</li>
             </researchPrerequisites>
             <filthAcceptanceMask>
                 <li>Unnatural</li>
