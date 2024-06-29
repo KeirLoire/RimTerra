@@ -9,11 +9,8 @@
         <prerequisites>
             <li>DeepDrilling</li>
         </prerequisites>
-        <hiddenPrerequisites>
-            <li>Pemmican</li>
-        </hiddenPrerequisites>
-        <researchViewX>13.00</researchViewX>
-        <researchViewY>3.20</researchViewY>
+        <researchViewX>12.00</researchViewX>
+        <researchViewY>2.90</researchViewY>
         <generalRules>
         <rulesStrings>
             <li>subject->terraforming</li>
