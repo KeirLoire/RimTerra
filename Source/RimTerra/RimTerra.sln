@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34511.84
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RimTerra", "RimTerra\RimTerra.csproj", "{CEE47065-CBFE-429D-8132-F5CC2F964D83}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RimTerra", "RimTerra\RimTerra.csproj", "{0D9E6E2F-AF1C-4262-BE30-C85C04FE7EBC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{CEE47065-CBFE-429D-8132-F5CC2F964D83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CEE47065-CBFE-429D-8132-F5CC2F964D83}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CEE47065-CBFE-429D-8132-F5CC2F964D83}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CEE47065-CBFE-429D-8132-F5CC2F964D83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D9E6E2F-AF1C-4262-BE30-C85C04FE7EBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D9E6E2F-AF1C-4262-BE30-C85C04FE7EBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D9E6E2F-AF1C-4262-BE30-C85C04FE7EBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D9E6E2F-AF1C-4262-BE30-C85C04FE7EBC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {169CA14E-E511-4FD2-A3B4-DC8771C6EBB3}
+		SolutionGuid = {AF8D8944-D257-4DEB-973E-C62FB4805678}
 	EndGlobalSection
 EndGlobal
