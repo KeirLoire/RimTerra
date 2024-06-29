@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <!-- Stony Soil  -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/TerrainDef[defName="Gravel"]</xpath>
+        <value>
+            <description>Transform rocky terrain into fertile stony soil using limestone blocks. Making it ideal for agriculture. A practical solution for expanding your colony's farmland.</description>
+            <constructEffect>ConstructDirt</constructEffect>
+            <designationCategory>Floors</designationCategory>
+            <costList>
+                <BlocksLimestone>7</BlocksLimestone>
+            </costList>
+            <researchPrerequisites>
+                <li>Terraforming</li>
+            </researchPrerequisites>
+            <filthAcceptanceMask>
+                <li>Unnatural</li>
+            </filthAcceptanceMask>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/TerrainDef[defName="Gravel"]/statBases</xpath>
+        <value>
+            <WorkToBuild>1600</WorkToBuild>
+        </value>
+    </Operation>
+    <!-- Soil -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/TerrainDef[defName="Soil"]</xpath>
+        <value>
+            <description>Convert stony soil into fertile soil using pemmican. Enriches the land, perfect for crop growth. Efficiently upgrade your colony's agriculture with this unique method.</description>
+            <constructEffect>ConstructDirt</constructEffect>
+            <designationCategory>Floors</designationCategory>
+            <costList>
+                <Pemmican>32</Pemmican>
+            </costList>
+            <researchPrerequisites>
+                <li>Terraforming</li>
+                <li>Pemmican</li>
+            </researchPrerequisites>
+            <filthAcceptanceMask>
+                <li>Unnatural</li>
+            </filthAcceptanceMask>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/TerrainDef[defName="Soil"]/statBases</xpath>
+        <value>
+            <WorkToBuild>1600</WorkToBuild>
+        </value>
+    </Operation>
+    <!-- Rich Soil -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/TerrainDef[defName="SoilRich"]</xpath>
+        <value>
+            <description>Upgrade fertile soil into rich soil using nutrient paste. Boosts soil fertility, providing the best conditions for crop growth. A valuable asset for your colony's agriculture.</description>
+            <constructEffect>ConstructDirt</constructEffect>
+            <designationCategory>Floors</designationCategory>
+            <costList>
+                <MealNutrientPaste>1</MealNutrientPaste>
+            </costList>
+            <researchPrerequisites>
+                <li>Terraforming</li>
+                <li>NutrientPaste</li>
+            </researchPrerequisites>
+            <filthAcceptanceMask>
+                <li>Unnatural</li>
+            </filthAcceptanceMask>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/TerrainDef[defName="SoilRich"]/statBases</xpath>
+        <value>
+            <WorkToBuild>1600</WorkToBuild>
+        </value>
+    </Operation>
+</Patch>
