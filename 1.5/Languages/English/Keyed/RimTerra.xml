@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+    <MustPlaceOnStone>Must be placed on stone terrain.</MustPlaceOnStone>
+    <MustPlaceOnStonySoil>Must be placed on stony soil terrain.</MustPlaceOnStonySoil>
+    <MustPlaceOnSoil>Must be placed on soil terrain.</MustPlaceOnSoil>
+</LanguageData>

@@ -16,6 +16,9 @@
             <filthAcceptanceMask>
                 <li>Unnatural</li>
             </filthAcceptanceMask>
+            <placeWorkers>
+                <li>RimTerra.PlaceWorkers.PlaceWorker_OnStone</li>
+            </placeWorkers>
         </value>
     </Operation>
     <Operation Class="PatchOperationAdd">
@@ -41,6 +44,9 @@
             <filthAcceptanceMask>
                 <li>Unnatural</li>
             </filthAcceptanceMask>
+            <placeWorkers>
+                <li>RimTerra.PlaceWorkers.PlaceWorker_OnStonySoil</li>
+            </placeWorkers>
         </value>
     </Operation>
     <Operation Class="PatchOperationAdd">
@@ -66,6 +72,9 @@
             <filthAcceptanceMask>
                 <li>Unnatural</li>
             </filthAcceptanceMask>
+            <placeWorkers>
+                <li>RimTerra.PlaceWorkers.PlaceWorker_OnSoil</li>
+            </placeWorkers>
         </value>
     </Operation>
     <Operation Class="PatchOperationAdd">
