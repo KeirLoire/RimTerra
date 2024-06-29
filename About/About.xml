@@ -3,7 +3,7 @@
     <packageId>KeirLoire.RimTerra</packageId>
     <name>RimTerra</name>
     <author>KeirLoire</author>
-    <url></url>
+    <url>https://github.com/KeirLoire/RimTerra</url>
     <modIconPath IgnoreIfNoMatchingField="True">About/Logo</modIconPath>
     <modVersion>1.0.0</modVersion>
     <supportedVersions>
