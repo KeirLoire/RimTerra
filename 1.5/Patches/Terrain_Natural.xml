@@ -4,7 +4,7 @@
     <Operation Class="PatchOperationAdd">
         <xpath>Defs/TerrainDef[defName="Gravel"]</xpath>
         <value>
-            <description>Transform rocky terrain into fertile stony soil using limestone blocks. Making it ideal for agriculture. A practical solution for expanding your colony's farmland.</description>
+            <description>Transform stone terrain into fertile stony soil using limestone blocks. Making it ideal for agriculture. A practical solution for expanding your colony's farmland.</description>
             <constructEffect>ConstructDirt</constructEffect>
             <designationCategory>Floors</designationCategory>
             <costList>
