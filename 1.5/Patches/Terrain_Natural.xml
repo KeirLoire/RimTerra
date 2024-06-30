@@ -57,10 +57,11 @@
             <constructEffect>ConstructDirt</constructEffect>
             <designationCategory>Floors</designationCategory>
             <costList>
-                <Neutroamine>7</Neutroamine>
+                <Neutroamine>32</Neutroamine>
             </costList>
             <researchPrerequisites>
                 <li>Terraforming</li>
+                <li>DrugProduction</li>
             </researchPrerequisites>
             <placeWorkers>
                 <li>RimTerra.PlaceWorkers.PlaceWorker_OnSoil</li>
