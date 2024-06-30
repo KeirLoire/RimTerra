@@ -19,11 +19,11 @@ jobs:
 
       - name: Restore NuGet packages
         run: |
-          Set-Location Source\RimTerra\
+          Set-Location Source
           nuget restore
 
       - name: Build assemblies
-        run: msbuild Source\RimTerra\RimTerra.sln /p:Configuration=Release
+        run: msbuild Source\RimTerra.sln /p:Configuration=Release
 
       - name: Upload artifacts
         uses: actions/upload-artifact@v3
