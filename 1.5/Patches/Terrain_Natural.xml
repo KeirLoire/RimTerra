@@ -8,7 +8,7 @@
             <constructEffect>ConstructDirt</constructEffect>
             <designationCategory>Floors</designationCategory>
             <costList>
-                <BlocksLimestone>8</BlocksLimestone>
+                <BlocksLimestone>7</BlocksLimestone>
             </costList>
             <researchPrerequisites>
                 <li>Terraforming</li>
