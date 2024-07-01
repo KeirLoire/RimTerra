@@ -15,4 +15,4 @@ Terraform stone terrain into usable soil. Expand your colony's farmland.
 - Rich soil can be created from fertile soil using neutroamine.
 
 ## Prerequisites
-Requires Visual Studio with .NET 4.8.0 SDK to compile the assemblies.
+Requires Visual Studio with .NET Framework 4.8.0 SDK to compile the assemblies.
