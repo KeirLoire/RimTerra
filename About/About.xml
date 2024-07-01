@@ -4,7 +4,7 @@
     <name>RimTerra</name>
     <author>KeirLoire</author>
     <url>https://github.com/KeirLoire/RimTerra</url>
-    <modIconPath IgnoreIfNoMatchingField="True">About/Logo</modIconPath>
+    <modIconPath IgnoreIfNoMatchingField="True">About/RimTerra_Logo</modIconPath>
     <modVersion>1.0.0</modVersion>
     <supportedVersions>
         <li>1.5</li>
