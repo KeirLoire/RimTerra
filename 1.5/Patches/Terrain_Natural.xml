@@ -22,6 +22,7 @@
         <xpath>Defs/TerrainDef[defName="Gravel"]/statBases</xpath>
         <value>
             <WorkToBuild>1600</WorkToBuild>
+            <MarketValue>0</MarketValue>
         </value>
     </Operation>
     <!-- Soil -->
@@ -47,6 +48,7 @@
         <xpath>Defs/TerrainDef[defName="Soil"]/statBases</xpath>
         <value>
             <WorkToBuild>1600</WorkToBuild>
+            <MarketValue>0</MarketValue>
         </value>
     </Operation>
     <!-- Rich Soil -->
@@ -72,6 +74,7 @@
         <xpath>Defs/TerrainDef[defName="SoilRich"]/statBases</xpath>
         <value>
             <WorkToBuild>1600</WorkToBuild>
+            <MarketValue>0</MarketValue>
         </value>
     </Operation>
 </Patch>
