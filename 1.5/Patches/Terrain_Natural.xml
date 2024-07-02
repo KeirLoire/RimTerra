@@ -14,7 +14,7 @@
                 <li>Terraforming</li>
             </researchPrerequisites>
             <placeWorkers>
-                <li>RimTerra.PlaceWorkers.PlaceWorker_OnStone</li>
+                <li>RimTerra.PlaceWorkers.PlaceWorker_StonySoil</li>
             </placeWorkers>
         </value>
     </Operation>
@@ -40,7 +40,7 @@
                 <li>Pemmican</li>
             </researchPrerequisites>
             <placeWorkers>
-                <li>RimTerra.PlaceWorkers.PlaceWorker_OnStonySoil</li>
+                <li>RimTerra.PlaceWorkers.PlaceWorker_Soil</li>
             </placeWorkers>
         </value>
     </Operation>
@@ -66,7 +66,7 @@
                 <li>DrugProduction</li>
             </researchPrerequisites>
             <placeWorkers>
-                <li>RimTerra.PlaceWorkers.PlaceWorker_OnSoil</li>
+                <li>RimTerra.PlaceWorkers.PlaceWorker_RichSoil</li>
             </placeWorkers>
         </value>
     </Operation>
