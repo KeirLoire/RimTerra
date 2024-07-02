@@ -1,4 +1,5 @@
-﻿using Verse;
+﻿using RimWorld;
+using Verse;
 
 namespace RimTerra.PlaceWorkers
 {
@@ -7,7 +8,18 @@ namespace RimTerra.PlaceWorkers
         public override AcceptanceReport AllowsPlacing(BuildableDef checkingDef, IntVec3 loc, Rot4 rot, Map map, Thing thingToIgnore = null, Thing thing = null)
         {
             var things = map.thingGrid.ThingsAt(loc);
+            var isStone = map.terrainGrid.TerrainAt(loc).categoryType == TerrainDef.TerrainCategoryType.Stone;
             var isBlocked = false;
+            var isSmoothStone = false;
+
+            foreach (var t in things)
+            {
+                if (t.def.IsSmoothed)
+                {
+                    isSmoothStone = true;
+                    break;
+                }
+            }
 
             foreach (var t in things)
             {
@@ -18,7 +30,7 @@ namespace RimTerra.PlaceWorkers
                 }
             }
 
-            if (map.terrainGrid.TerrainAt(loc).categoryType != TerrainDef.TerrainCategoryType.Stone || isBlocked)
+            if (!(isStone || isSmoothStone) || isBlocked)
                 return "MustPlaceOnStone".Translate();
 
             return true;
