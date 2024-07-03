@@ -1,26 +1,14 @@
-﻿using RimWorld;
-using Verse;
+﻿using Verse;
 
 namespace RimTerra.PlaceWorkers
 {
-    public class PlaceWorker_Soil : PlaceWorker
+    public sealed class PlaceWorker_Soil : PlaceWorkerBase
     {
         public override AcceptanceReport AllowsPlacing(BuildableDef checkingDef, IntVec3 loc, Rot4 rot, Map map, Thing thingToIgnore = null, Thing thing = null)
         {
-            var things = map.thingGrid.ThingsAt(loc);
-            var isGravel = map.terrainGrid.TerrainAt(loc) == TerrainDefOf.Gravel;
-            var isBlocked = false;
+            var terrain = map.terrainGrid.TerrainAt(loc);
 
-            foreach (var t in things)
-            {
-                if (t.def.passability == Traversability.Impassable)
-                {
-                    isBlocked = true;
-                    break;
-                }
-            }
-
-            if (!isGravel || isBlocked)
+            if ((terrain != TerrainDefOf.Gravel) || IsTerrainBlocked(map, loc))
                 return "MustPlaceOnStonySoil".Translate();
 
             return true;

@@ -1,26 +1,25 @@
-﻿using RimWorld;
+﻿using System.Collections.Generic;
+using System.Linq;
 using Verse;
 
 namespace RimTerra.PlaceWorkers
 {
-    public class PlaceWorker_RichSoil : PlaceWorker
+    public sealed class PlaceWorker_RichSoil : PlaceWorkerBase
     {
+        // TerrainDefOf is incomplete, so we need to define our own list of terrain def names
+        private HashSet<string> _terrainDefs = new HashSet<string> 
+        { 
+            "Soil", 
+            "MossyTerrain", 
+            "MarshyTerrain" 
+        };
+
         public override AcceptanceReport AllowsPlacing(BuildableDef checkingDef, IntVec3 loc, Rot4 rot, Map map, Thing thingToIgnore = null, Thing thing = null)
         {
-            var things = map.thingGrid.ThingsAt(loc);
-            var isSoil = map.terrainGrid.TerrainAt(loc) == TerrainDefOf.Soil;
-            var isBlocked = false;
+            var terrain = map.terrainGrid.TerrainAt(loc);
+            var isTerrain = _terrainDefs.Any(x => x == terrain.defName);
 
-            foreach (var t in things)
-            {
-                if (t.def.passability == Traversability.Impassable)
-                {
-                    isBlocked = true;
-                    break;
-                }
-            }
-
-            if (!isSoil || isBlocked)
+            if (!isTerrain || IsTerrainBlocked(map, loc))
                 return "MustPlaceOnSoil".Translate();
 
             return true;
