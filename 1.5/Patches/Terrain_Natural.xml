@@ -92,7 +92,6 @@
             </costList>
             <researchPrerequisites>
                 <li>Terraforming</li>
-                <li>DrugProduction</li>
             </researchPrerequisites>
             <placeWorkers>
                 <li>RimTerra.PlaceWorkers.PlaceWorker_LichenCoveredSoil</li>
