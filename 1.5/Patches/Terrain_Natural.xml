@@ -87,7 +87,8 @@
             <constructEffect>ConstructDirt</constructEffect>
             <designationCategory>Floors</designationCategory>
             <costList>
-                <Neutroamine>32</Neutroamine>
+                <Hay>32</Hay>
+                <WoodLog>32</WoodLog>
             </costList>
             <researchPrerequisites>
                 <li>Terraforming</li>
