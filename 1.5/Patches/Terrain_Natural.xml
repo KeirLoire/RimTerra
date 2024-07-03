@@ -9,6 +9,7 @@
             <designationCategory>Floors</designationCategory>
             <costList>
                 <BlocksLimestone>7</BlocksLimestone>
+                <Hay>32</Hay>
             </costList>
             <researchPrerequisites>
                 <li>Terraforming</li>
@@ -33,7 +34,8 @@
             <constructEffect>ConstructDirt</constructEffect>
             <designationCategory>Floors</designationCategory>
             <costList>
-                <Pemmican>32</Pemmican>
+                <Hay>32</Hay>
+                <WoodLog>32</WoodLog>
             </costList>
             <researchPrerequisites>
                 <li>Terraforming</li>
