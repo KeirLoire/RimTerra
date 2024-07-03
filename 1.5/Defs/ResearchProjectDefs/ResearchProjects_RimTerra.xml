@@ -3,7 +3,7 @@
     <ResearchProjectDef>
         <defName>Terraforming</defName>
         <label>terraforming</label>
-        <description>Terraform stone terrain into usable soil. Expand your colony's farmland.</description>
+        <description>Transform various terrains into usable soil for expanding your colony's farmland and development.</description>
         <baseCost>2000</baseCost>
         <techLevel>Industrial</techLevel>
         <prerequisites>

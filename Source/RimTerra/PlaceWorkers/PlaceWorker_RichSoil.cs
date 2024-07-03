@@ -20,7 +20,7 @@ namespace RimTerra.PlaceWorkers
             var isTerrain = _terrainDefs.Any(x => x == terrain.defName);
 
             if (!isTerrain || IsTerrainBlocked(map, loc))
-                return "MustPlaceOnSoil".Translate();
+                return "MustPlaceForRichSoil".Translate();
 
             return true;
         }

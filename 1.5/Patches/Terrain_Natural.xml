@@ -4,7 +4,7 @@
     <Operation Class="PatchOperationAdd">
         <xpath>Defs/TerrainDef[defName="Gravel"]</xpath>
         <value>
-            <description>Transform stone terrain into fertile stony soil using limestone blocks. Making it ideal for agriculture. A practical solution for expanding your colony's farmland.</description>
+            <description>Transform various stone, sand, mud, and packed dirt into stony soil using a combination of limestone and hay. This process creates a more fertile foundation, ideal for expanding your colony's agricultural potential.</description>
             <constructEffect>ConstructDirt</constructEffect>
             <designationCategory>Floors</designationCategory>
             <costList>
@@ -13,6 +13,7 @@
             </costList>
             <researchPrerequisites>
                 <li>Terraforming</li>
+                <li>Stonecutting</li>
             </researchPrerequisites>
             <placeWorkers>
                 <li>RimTerra.PlaceWorkers.PlaceWorker_StonySoil</li>
@@ -30,7 +31,7 @@
     <Operation Class="PatchOperationAdd">
         <xpath>Defs/TerrainDef[defName="Soil"]</xpath>
         <value>
-            <description>Convert stony soil into fertile soil using pemmican. Enriches the land, perfect for crop growth. Efficiently upgrade your colony's agriculture with this unique method.</description>
+            <description>Transform stony soil into fertile soil using hay and wood. This process enriches the land, making it more suitable for crop growth and enhancing your colony's agricultural productivity.</description>
             <constructEffect>ConstructDirt</constructEffect>
             <designationCategory>Floors</designationCategory>
             <costList>
@@ -39,7 +40,6 @@
             </costList>
             <researchPrerequisites>
                 <li>Terraforming</li>
-                <li>Pemmican</li>
             </researchPrerequisites>
             <placeWorkers>
                 <li>RimTerra.PlaceWorkers.PlaceWorker_Soil</li>
@@ -57,7 +57,7 @@
     <Operation Class="PatchOperationAdd">
         <xpath>Defs/TerrainDef[defName="SoilRich"]</xpath>
         <value>
-            <description>Upgrade fertile soil into rich soil using neutroamine. Boosts soil fertility, providing the best conditions for crop growth. A valuable asset for your colony's agriculture.</description>
+            <description>Upgrade soil, lichen-covered soil, and marshy soil into rich soil using neutroamine. This process enhances soil fertility, providing optimal conditions for crop growth and significantly boosting your colony's agricultural productivity.</description>
             <constructEffect>ConstructDirt</constructEffect>
             <designationCategory>Floors</designationCategory>
             <costList>
@@ -74,6 +74,112 @@
     </Operation>
     <Operation Class="PatchOperationAdd">
         <xpath>Defs/TerrainDef[defName="SoilRich"]/statBases</xpath>
+        <value>
+            <WorkToBuild>1600</WorkToBuild>
+            <MarketValue>0</MarketValue>
+        </value>
+    </Operation>
+    <!-- Lichen Covered Soil -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/TerrainDef[defName="MossyTerrain"]</xpath>
+        <value>
+            <description>Transform fungal gravel into lichen-covered soil using a mixture of wood and hay. This process revitalizes the terrain, creating a more suitable environment for your colony's agricultural needs.</description>
+            <constructEffect>ConstructDirt</constructEffect>
+            <designationCategory>Floors</designationCategory>
+            <costList>
+                <Neutroamine>32</Neutroamine>
+            </costList>
+            <researchPrerequisites>
+                <li>Terraforming</li>
+                <li>DrugProduction</li>
+            </researchPrerequisites>
+            <placeWorkers>
+                <li>RimTerra.PlaceWorkers.PlaceWorker_LichenCoveredSoil</li>
+            </placeWorkers>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/TerrainDef[defName="MossyTerrain"]/statBases</xpath>
+        <value>
+            <WorkToBuild>1600</WorkToBuild>
+            <MarketValue>0</MarketValue>
+        </value>
+    </Operation>
+    <!-- Marshy Soil -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/TerrainDef[defName="MarshyTerrain"]</xpath>
+        <value>
+            <description>Convert marsh into marshy soil using limestone, hay, and wood. This process improves the terrain, making it better suited for agriculture and enhancing your colony’s farming opportunities.</description>
+            <constructEffect>ConstructDirt</constructEffect>
+            <designationCategory>Floors</designationCategory>
+            <costList>
+                <BlocksLimestone>7</BlocksLimestone>
+                <Hay>32</Hay>
+                <WoodLog>32</WoodLog>
+            </costList>
+            <researchPrerequisites>
+                <li>Terraforming</li>
+                <li>Stonecutting</li>
+            </researchPrerequisites>
+            <placeWorkers>
+                <li>RimTerra.PlaceWorkers.PlaceWorker_MarshySoil</li>
+            </placeWorkers>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/TerrainDef[defName="MarshyTerrain"]/statBases</xpath>
+        <value>
+            <WorkToBuild>1600</WorkToBuild>
+            <MarketValue>0</MarketValue>
+        </value>
+    </Operation>
+    <!-- Sand -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/TerrainDef[defName="Sand"]</xpath>
+        <value>
+            <description>Transform shallow ocean water into sand using sandstone. This process dries up the area and creates a solid foundation for future construction and expansion of your colony.</description>
+            <constructEffect>ConstructDirt</constructEffect>
+            <designationCategory>Floors</designationCategory>
+            <costList>
+                <BlocksSandstone>14</BlocksSandstone>
+            </costList>
+            <researchPrerequisites>
+                <li>Terraforming</li>
+                <li>Stonecutting</li>
+            </researchPrerequisites>
+            <placeWorkers>
+                <li>RimTerra.PlaceWorkers.PlaceWorker_Sand</li>
+            </placeWorkers>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/TerrainDef[defName="Sand"]/statBases</xpath>
+        <value>
+            <WorkToBuild>1600</WorkToBuild>
+            <MarketValue>0</MarketValue>
+        </value>
+    </Operation>
+    <!-- Mud -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/TerrainDef[defName="Mud"]</xpath>
+        <value>
+            <description>Transform shallow water into mud using limestone. This process dries the area, creating a basic terrain for future development or construction projects.</description>
+            <constructEffect>ConstructDirt</constructEffect>
+            <designationCategory>Floors</designationCategory>
+            <costList>
+                <BlocksLimestone>14</BlocksLimestone>
+            </costList>
+            <researchPrerequisites>
+                <li>Terraforming</li>
+                <li>Stonecutting</li>
+            </researchPrerequisites>
+            <placeWorkers>
+                <li>RimTerra.PlaceWorkers.PlaceWorker_Mud</li>
+            </placeWorkers>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/TerrainDef[defName="Mud"]/statBases</xpath>
         <value>
             <WorkToBuild>1600</WorkToBuild>
             <MarketValue>0</MarketValue>

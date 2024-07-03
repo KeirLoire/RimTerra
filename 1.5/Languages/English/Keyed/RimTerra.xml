@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
-    <MustPlaceOnStone>Must be placed on stone terrain.</MustPlaceOnStone>
-    <MustPlaceOnStonySoil>Must be placed on stony soil terrain.</MustPlaceOnStonySoil>
-    <MustPlaceOnSoil>Must be placed on soil terrain.</MustPlaceOnSoil>
+    <MustPlaceForStonySoil>Must be placed on stone, sand, mud, or packed dirt terrain.</MustPlaceForStonySoil>
+    <MustPlaceForSoil>Must be placed on stony soil terrain.</MustPlaceForSoil>
+    <MustPlaceForRichSoil>Must be placed on soil, lichen-covered soil, marshy soil terrain.</MustPlaceForRichSoil>
+    <MustPlaceForLichenCoveredSoil>Must be placed on fungal gravel terrain.</MustPlaceForLichenCoveredSoil>
+    <MustPlaceForMarshySoil>Must be placed on marsh terrain.</MustPlaceForMarshySoil>
+    <MustPlaceForSand>Must be placed on shallow ocean water.</MustPlaceForSand>
+    <MustPlaceForMud>Must be placed on shallow water.</MustPlaceForMud>
 </LanguageData>
