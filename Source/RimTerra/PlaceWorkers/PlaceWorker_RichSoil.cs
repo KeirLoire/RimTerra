@@ -10,8 +10,7 @@ namespace RimTerra.PlaceWorkers
         private HashSet<string> _terrainDefs = new HashSet<string> 
         { 
             "Soil", 
-            "MossyTerrain", 
-            "MarshyTerrain" 
+            "MossyTerrain" 
         };
 
         public override AcceptanceReport AllowsPlacing(BuildableDef checkingDef, IntVec3 loc, Rot4 rot, Map map, Thing thingToIgnore = null, Thing thing = null)

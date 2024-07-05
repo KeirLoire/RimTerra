@@ -10,8 +10,6 @@ namespace RimTerra.PlaceWorkers
         private HashSet<string> _terrainDefs = new HashSet<string>
         { 
             "Sand", 
-            "SoftSand", 
-            "Mud",
             "PackedDirt" 
         };
 
