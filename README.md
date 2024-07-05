@@ -10,13 +10,10 @@
 
 Transform various terrains into usable soil for expanding your colony's farmland and development.
 
-- Transform various stone, sand, mud, and packed dirt into stony soil using a combination of limestone and hay.
-- Transform stony soil into fertile soil using hay and wood.
-- Upgrade soil, lichen-covered soil, and marshy soil into rich soil using neutroamine.
+- Transform various stone terrain, sand, and packed dirt into stony soil using a combination of limestone and hay.
+- Transform stony soil into fertile soil terrain using hay and wood.
+- Upgrade soil and lichen-covered soil into rich soil using neutroamine.
 - Transform fungal gravel into lichen-covered soil using a mixture of wood and hay.
-- Convert marsh into marshy soil using limestone, hay, and wood.
-- Transform shallow ocean water into sand using sandstone.
-- Transform shallow water into mud using limestone.
 
 ## Prerequisites
 Requires Visual Studio with .NET Framework 4.8.0 SDK to compile the assemblies.

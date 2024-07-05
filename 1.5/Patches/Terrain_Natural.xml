@@ -4,7 +4,7 @@
     <Operation Class="PatchOperationAdd">
         <xpath>Defs/TerrainDef[defName="Gravel"]</xpath>
         <value>
-            <description>Transform various stone, sand, mud, and packed dirt into stony soil using a combination of limestone and hay. This process creates a more fertile foundation, ideal for expanding your colony's agricultural potential.</description>
+            <description>Transform various stone terrain, sand, and packed dirt into stony soil using a combination of limestone and hay. This process creates a more fertile foundation, ideal for expanding your colony's agricultural potential.</description>
             <constructEffect>ConstructDirt</constructEffect>
             <designationCategory>Floors</designationCategory>
             <costList>
@@ -57,7 +57,7 @@
     <Operation Class="PatchOperationAdd">
         <xpath>Defs/TerrainDef[defName="SoilRich"]</xpath>
         <value>
-            <description>Upgrade soil, lichen-covered soil, and marshy soil into rich soil using neutroamine. This process enhances soil fertility, providing optimal conditions for crop growth and significantly boosting your colony's agricultural productivity.</description>
+            <description>Upgrade soil and lichen-covered soil into rich soil using neutroamine. This process enhances soil fertility, providing optimal conditions for crop growth and significantly boosting your colony's agricultural productivity.</description>
             <constructEffect>ConstructDirt</constructEffect>
             <designationCategory>Floors</designationCategory>
             <costList>
