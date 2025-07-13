@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+    <MustPlaceForStonySoil>Must be placed on stone, sand, or packed dirt terrain.</MustPlaceForStonySoil>
+    <MustPlaceForSoil>Must be placed on stony soil terrain.</MustPlaceForSoil>
+    <MustPlaceForRichSoil>Must be placed on soil or lichen-covered soil terrain.</MustPlaceForRichSoil>
+    <MustPlaceForLichenCoveredSoil>Must be placed on fungal gravel terrain.</MustPlaceForLichenCoveredSoil>
+</LanguageData>
