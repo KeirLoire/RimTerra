@@ -6,7 +6,7 @@
         <value>
             <description>Transform various stone terrain, sand, and packed dirt into stony soil using a combination of limestone and hay. This process creates a more fertile foundation, ideal for expanding your colony's agricultural potential.</description>
             <constructEffect>ConstructDirt</constructEffect>
-            <designationCategory>Floors</designationCategory>
+            <designationCategory>DesignationCategory_Terraforming</designationCategory>
             <costList>
                 <BlocksLimestone>7</BlocksLimestone>
                 <Hay>32</Hay>
@@ -33,7 +33,7 @@
         <value>
             <description>Transform stony soil into fertile soil using hay and wood. This process enriches the land, making it more suitable for crop growth and enhancing your colony's agricultural productivity.</description>
             <constructEffect>ConstructDirt</constructEffect>
-            <designationCategory>Floors</designationCategory>
+            <designationCategory>DesignationCategory_Terraforming</designationCategory>
             <costList>
                 <Hay>32</Hay>
                 <WoodLog>32</WoodLog>
@@ -59,7 +59,7 @@
         <value>
             <description>Upgrade soil and lichen-covered soil into rich soil using neutroamine. This process enhances soil fertility, providing optimal conditions for crop growth and significantly boosting your colony's agricultural productivity.</description>
             <constructEffect>ConstructDirt</constructEffect>
-            <designationCategory>Floors</designationCategory>
+            <designationCategory>DesignationCategory_Terraforming</designationCategory>
             <costList>
                 <Neutroamine>32</Neutroamine>
             </costList>
@@ -85,7 +85,7 @@
         <value>
             <description>Transform fungal gravel into lichen-covered soil using a mixture of wood and hay. This process revitalizes the terrain, creating a more suitable environment for your colony's agricultural needs.</description>
             <constructEffect>ConstructDirt</constructEffect>
-            <designationCategory>Floors</designationCategory>
+            <designationCategory>DesignationCategory_Terraforming</designationCategory>
             <costList>
                 <Hay>32</Hay>
                 <WoodLog>32</WoodLog>
