@@ -9,8 +9,8 @@
         <prerequisites>
             <li>DeepDrilling</li>
         </prerequisites>
-        <researchViewX>12.00</researchViewX>
-        <researchViewY>2.90</researchViewY>
+        <researchViewX>14.00</researchViewX>
+        <researchViewY>5.00</researchViewY>
         <generalRules>
         <rulesStrings>
             <li>subject->terraforming</li>
